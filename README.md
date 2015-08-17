@@ -1,3 +1,6 @@
 # Idea-Connection-Mobile
 
-Initial README file. Contents TBD
+Autodesk Idea Connection
+- Clone the project into your desktop.
+- Open using Xamarin Shared proejcts.
+- Run with iOS as starting project.
