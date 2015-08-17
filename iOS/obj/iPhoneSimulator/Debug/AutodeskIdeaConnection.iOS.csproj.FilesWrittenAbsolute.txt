@@ -1,0 +1,15 @@
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/AutodeskIdeaConnection.iOS.exe.mdb
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/AutodeskIdeaConnection.iOS.exe
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/obj/iPhoneSimulator/Debug/AutodeskIdeaConnection.iOS.exe
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/obj/iPhoneSimulator/Debug/AutodeskIdeaConnection.iOS.exe.mdb
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/Calabash.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/AutodeskIdeaConnection.dll
+/Users/Ravi/Projects/AutodeskIdeaConnection/iOS/bin/iPhoneSimulator/Debug/AutodeskIdeaConnection.dll.mdb

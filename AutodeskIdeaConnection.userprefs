@@ -1,0 +1,36 @@
+﻿<Properties StartupItem="iOS/AutodeskIdeaConnection.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AutodeskIdeaConnection/Views/PostPage.cs">
+    <Files>
+      <File FileName="AutodeskIdeaConnection/Views/LoginPage.cs" Line="189" Column="214" />
+      <File FileName="AutodeskIdeaConnection/Views/TabbedHomePage.cs" Line="66" Column="1" />
+      <File FileName="AutodeskIdeaConnection/Views/IdeaFeedPage.cs" Line="173" Column="28" />
+      <File FileName="AutodeskIdeaConnection/Views/IndividualPostPage.cs" Line="68" Column="16" />
+      <File FileName="AutodeskIdeaConnection/Models/FeedCard.cs" Line="24" Column="3" />
+      <File FileName="AutodeskIdeaConnection/Views/PostPage.cs" Line="102" Column="76" />
+      <File FileName="AutodeskIdeaConnection/Views/CategoryCardTemplate.cs" Line="46" Column="51" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AutodeskIdeaConnection" expanded="True">
+            <Node name="AutodeskIdeaConnection" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="PostPage.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="AutodeskIdeaConnection.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

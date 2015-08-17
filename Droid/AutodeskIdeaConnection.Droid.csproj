@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{E4A43238-81FD-482C-BF39-B97487492581}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AutodeskIdeaConnection.Droid</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>AutodeskIdeaConnection.Droid</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.Android">
+      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsViewGroup">
+      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.22.2.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutodeskIdeaConnection\AutodeskIdeaConnection.csproj">
+      <Project>{08D371CD-DD02-45CB-9171-D750D5EE2EA3}</Project>
+      <Name>AutodeskIdeaConnection</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\layout\" />
+    <Folder Include="Resources\values\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\.DS_Store" />
+    <AndroidResource Include="Resources\drawable\add.png" />
+    <AndroidResource Include="Resources\drawable\add1.5x.png" />
+    <AndroidResource Include="Resources\drawable\add2x.png" />
+    <AndroidResource Include="Resources\drawable\add3x.png" />
+    <AndroidResource Include="Resources\drawable\add4x.png" />
+    <AndroidResource Include="Resources\drawable\addGrey.png" />
+    <AndroidResource Include="Resources\drawable\addGrey1.5x.png" />
+    <AndroidResource Include="Resources\drawable\addGrey2x.png" />
+    <AndroidResource Include="Resources\drawable\addGrey3x.png" />
+    <AndroidResource Include="Resources\drawable\addGrey4x.png" />
+    <AndroidResource Include="Resources\drawable\catArrow.png" />
+    <AndroidResource Include="Resources\drawable\catArrow1.5x.png" />
+    <AndroidResource Include="Resources\drawable\catArrow2x.png" />
+    <AndroidResource Include="Resources\drawable\catArrow3x.png" />
+    <AndroidResource Include="Resources\drawable\catArrow4x.png" />
+    <AndroidResource Include="Resources\drawable\catGrey.png" />
+    <AndroidResource Include="Resources\drawable\catGrey1.5x.png" />
+    <AndroidResource Include="Resources\drawable\catGrey2x.png" />
+    <AndroidResource Include="Resources\drawable\catGrey3x.png" />
+    <AndroidResource Include="Resources\drawable\catGrey4x.png" />
+    <AndroidResource Include="Resources\drawable\categories.png" />
+    <AndroidResource Include="Resources\drawable\categories1.5x.png" />
+    <AndroidResource Include="Resources\drawable\categories2x.png" />
+    <AndroidResource Include="Resources\drawable\categories3x.png" />
+    <AndroidResource Include="Resources\drawable\categories4x.png" />
+    <AndroidResource Include="Resources\drawable\dislike.png" />
+    <AndroidResource Include="Resources\drawable\dislike1.5x.png" />
+    <AndroidResource Include="Resources\drawable\dislike2x.png" />
+    <AndroidResource Include="Resources\drawable\dislike3x.png" />
+    <AndroidResource Include="Resources\drawable\dislike4x.png" />
+    <AndroidResource Include="Resources\drawable\feed.png" />
+    <AndroidResource Include="Resources\drawable\feed1.5x.png" />
+    <AndroidResource Include="Resources\drawable\feed2x.png" />
+    <AndroidResource Include="Resources\drawable\feed3x.png" />
+    <AndroidResource Include="Resources\drawable\feed4x.png" />
+    <AndroidResource Include="Resources\drawable\feedGrey.png" />
+    <AndroidResource Include="Resources\drawable\feedGrey1.5x.png" />
+    <AndroidResource Include="Resources\drawable\feedGrey2x.png" />
+    <AndroidResource Include="Resources\drawable\feedGrey3x.png" />
+    <AndroidResource Include="Resources\drawable\feedGrey4x.png" />
+    <AndroidResource Include="Resources\drawable\like.png" />
+    <AndroidResource Include="Resources\drawable\like1.5x.png" />
+    <AndroidResource Include="Resources\drawable\like2x.png" />
+    <AndroidResource Include="Resources\drawable\like3x.png" />
+    <AndroidResource Include="Resources\drawable\like4x.png" />
+    <AndroidResource Include="Resources\drawable\loading.png" />
+    <AndroidResource Include="Resources\drawable\loading2x.png" />
+    <AndroidResource Include="Resources\drawable\loading3x.png" />
+    <AndroidResource Include="Resources\drawable\loading4x.png" />
+    <AndroidResource Include="Resources\drawable\notifGrey.png" />
+    <AndroidResource Include="Resources\drawable\notifGrey1.5x.png" />
+    <AndroidResource Include="Resources\drawable\notifGrey2x.png" />
+    <AndroidResource Include="Resources\drawable\notifGrey3x.png" />
+    <AndroidResource Include="Resources\drawable\notifGrey4x.png" />
+    <AndroidResource Include="Resources\drawable\notification.png" />
+    <AndroidResource Include="Resources\drawable\notification1.5x.png" />
+    <AndroidResource Include="Resources\drawable\notification2x.png" />
+    <AndroidResource Include="Resources\drawable\notification3x.png" />
+    <AndroidResource Include="Resources\drawable\notification4x.png" />
+    <AndroidResource Include="Resources\drawable\success.png" />
+    <AndroidResource Include="Resources\drawable\success1.5x.png" />
+    <AndroidResource Include="Resources\drawable\success2x.png" />
+    <AndroidResource Include="Resources\drawable\success3x.png" />
+    <AndroidResource Include="Resources\drawable\success4x.png" />
+    <AndroidResource Include="Resources\drawable\loading1.5x.png" />
+    <AndroidResource Include="Resources\drawable\logo_copy.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+</Project>
